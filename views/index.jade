@@ -1,0 +1,14 @@
+html
+	form(
+	action="http://localhost:8000/stripe"
+	method="POST"
+	)
+		script(
+		src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+	    data-key="pk_test_9Wy4jg4BrMjjRdULe3r6BlUA"
+	    data-amount="50000"
+	    data-name="Demo Site"
+	    data-description="Widget"
+	    data-image="/img/documentation/checkout/marketplace.png"
+	    data-locale="auto"
+		)
